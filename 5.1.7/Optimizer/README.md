@@ -37,8 +37,11 @@ IMPORTANT: You must SSH into your machine using your WAN IP (e.g., your local ro
 Step 2: Download the Optimizer Script Copy and paste this command into your terminal to download the latest v5.1.7 compatible script into your temporary folder:
 
 NOTE: Tested both on PostgreSQL database, and SQLite. For version 5.1.7-20260106 only.
+
 sudo wget -O /tmp/bootoptimizer.sh https://raw.githubusercontent.com/nelfox07/AdoPiSoft/refs/heads/Nelfox-Network-and-Data-Solution/5.1.7/Optimizer/bootoptimizer.sh
+
 Step 3: Make the Script Executable Give the system permission to run the file by executing:
 sudo chmod +x /tmp/bootoptimizer.sh
+
 Step 4: Run the Optimizer Execute the script with root privileges. Follow any on-screen prompts if asked:
 sudo /tmp/bootoptimizer.sh
