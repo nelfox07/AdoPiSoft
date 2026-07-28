@@ -34,6 +34,7 @@ This script transforms a normal SBC or Mini PC from a basic local hotspot machin
 
 Step 1: Connect to your server via SSH
 IMPORTANT: You must SSH into your machine using your WAN IP (e.g., your local router's IP, like 192.168.1.x). Do not use the local PisoWiFi network IP (10.0.0.1). Because this script optimizes network interfaces, connecting via 10.0.0.1 will cause your terminal to disconnect in the middle of the process!
+
 Step 2: Download the Optimizer Script Copy and paste this command into your terminal to download the latest v5.1.7 compatible script into your temporary folder:
 
 NOTE: Tested both on PostgreSQL database, and SQLite. For version 5.1.7-20260106 only.
